@@ -1,0 +1,41 @@
+Tabela, Campo, Descrição
+Churn do Cliente, ID do Cliente, um ID único que identifica cada cliente
+Churn do Cliente, Gênero, "O gênero do cliente: Masculino, Feminino"
+Churn do Cliente, Idade, "A idade atual do cliente, em anos, no momento em que o trimestre fiscal terminou (Q2 2022)"
+Churn do Cliente, Casado, "Indica se o cliente é casado: Sim, Não"
+Churn do Cliente, Número de Dependentes, "Indica o número de dependentes que vivem com o cliente (dependentes podem ser filhos, pais, avós, etc.)"
+Churn do Cliente, Cidade, A cidade de residência principal do cliente na Califórnia
+Churn do Cliente, Código Postal, O código postal da residência principal do cliente
+Churn do Cliente, Latitude, A latitude da residência principal do cliente
+Churn do Cliente, Longitude, A longitude da residência principal do cliente
+Churn do Cliente, Número de Indicações, Indica o número de vezes que o cliente indicou um amigo ou membro da família para esta empresa até o momento
+Churn do Cliente, Tempo de Permanência em Meses, Indica a quantidade total de meses que o cliente esteve com a empresa até o final do trimestre especificado acima
+Churn do Cliente, Oferta, "Identifica a última oferta de marketing que o cliente aceitou: Nenhuma, Oferta A, Oferta B, Oferta C, Oferta D, Oferta E"
+Churn do Cliente, Serviço de Telefone, "Indica se o cliente assina o serviço de telefone residencial com a empresa: Sim, Não"
+Churn do Cliente, Custo Mensal Médio de Chamadas de Longa Distância, "Indica o custo médio de chamadas de longa distância do cliente, calculado até o final do trimestre especificado acima (se o cliente não estiver inscrito no serviço de telefone residencial, isso será 0)"
+Churn do Cliente, Linhas Múltiplas, "Indica se o cliente assina várias linhas telefônicas com a empresa: Sim, Não (se o cliente não estiver inscrito no serviço de telefone residencial, isso será Não)"
+Churn do Cliente, Serviço de Internet, "Indica se o cliente assina o serviço de Internet com a empresa: Sim, Não"
+Churn do Cliente, Tipo de Internet, "Indica o tipo de conexão à Internet do cliente: DSL, Fibra Ótica, Cabo (se o cliente não estiver inscrito no serviço de Internet, isso será Nenhum)"
+Churn do Cliente, Custo Médio Mensal de Download em GB, "Indica o volume médio de download em gigabytes do cliente, calculado até o final do trimestre especificado acima (se o cliente não estiver inscrito no serviço de Internet, isso será 0)"
+Churn do Cliente, Segurança Online, "Indica se o cliente assina um serviço adicional de segurança online fornecido pela empresa: Sim, Não (se o cliente não estiver inscrito no serviço de Internet, isso será Não)"
+Churn do Cliente, Backup Online, "Indica se o cliente assina um serviço adicional de backup online fornecido pela empresa: Sim, Não (se o cliente não estiver inscrito no serviço de Internet, isso será Não)"
+Churn do Cliente, Plano de Proteção de Dispositivos, "Indica se o cliente assina um plano adicional de proteção de dispositivos para seu equipamento de internet fornecido pela empresa: Sim ou Não (se o cliente não assinar o serviço de internet será Não)".
+Churn do Cliente, Suporte Técnico Premium, "Indica se o cliente assina um plano adicional de suporte técnico da empresa com tempos de espera reduzidos: Sim ou Não (se o cliente não assinar o serviço de internet será Não)".
+Churn do Cliente, TV por Streaming, "Indica se o cliente usa seu serviço de internet para transmitir programação de televisão de um provedor terceirizado sem custo adicional: Sim ou Não (se o cliente não assinar o serviço de internet será Não)".
+Churn do Cliente, Filmes por Streaming, "Indica se o cliente usa seu serviço de internet para transmitir filmes de um provedor terceirizado sem custo adicional: Sim ou Não (se o cliente não assinar o serviço de internet será Não)".
+Churn do Cliente, Música por Streaming, "Indica se o cliente usa seu serviço de internet para transmitir música de um provedor terceirizado sem custo adicional: Sim ou Não (se o cliente não assinar o serviço de internet será Não)".
+Churn do Cliente, Dados Ilimitados, "Indica se o cliente pagou uma taxa mensal adicional para ter downloads/uploads ilimitados de dados: Sim ou Não (se o cliente não assinar o serviço de internet será Não)".
+Churn do Cliente, Contrato, "Indica o tipo de contrato atual do cliente: Mensal ou Um Ano ou Dois Anos".
+Churn do Cliente, Cobrança Sem Papel, "Indica se o cliente escolheu a cobrança sem papel: Sim ou Não".
+Churn do Cliente, Método de Pagamento, "Indica como o cliente paga sua conta: Retirada Bancária ou Cartão de Crédito ou Cheque Enviado".
+Churn do Cliente, Custo Mensal, "Indica o custo mensal total atual do cliente para todos os seus serviços da empresa".
+Churn do Cliente, Custo Total, "Indica as despesas totais do cliente que são calculadas até o final do trimestre especificado acima".
+Churn do Cliente, Total de Reembolsos, "Indica o total de reembolsos do cliente que são calculados até o final do trimestre especificado acima".
+Churn do Cliente, Total de Cobranças por Dados Extras, "Indica as cobranças totais do cliente por downloads extras de dados acima dos especificados em seu plano - até o final do trimestre especificado acima".
+Churn do Cliente, Total de Cobranças de Longa Distância, "Indica as cobranças totais do cliente por chamadas de longa distância acima das especificadas em seu plano - até o final do trimestre especificado acima".
+Churn do Cliente, Receita Total, "Indica a receita total da empresa com este cliente que é calculada até o final do trimestre especificado acima (Custo Total - Total de Reembolsos + Total de Cobranças por Dados Extras + Total de Cobranças de Longa Distância)".
+Churn do Cliente, Status do Cliente, "Indica o status do cliente no final do trimestre: Cancelado ou Mantido ou Novo".
+Customer Churn, Categoria de Churn, "Uma categoria de alto nível para a razão de churn do cliente, que é perguntada quando eles saem da empresa: Atitude, Concorrente, Insatisfação, Outro, Preço (diretamente relacionado à Razão de Churn)"
+Customer Churn, Razão de Churn, "A razão específica do cliente para deixar a empresa, que é perguntada quando eles saem da empresa (diretamente relacionada à Categoria de Churn)"
+População do CEP, CEP, O código postal da residência principal do cliente
+População do CEP, População, Uma estimativa atual da população para toda a área do código postal
